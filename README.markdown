@@ -15,7 +15,9 @@ $ rake install
 
 <pre>
 $ cd bundler_project
-$ ruby demo_problem.rb
+$ ruby demo_problem_backtick.rb
+$ ruby demo_problem_exec.rb
+$ ruby demo_problem_system.rb
 </pre>
 
 This error comes up:
