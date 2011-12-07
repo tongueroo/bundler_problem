@@ -1,6 +1,8 @@
-to reproduce the bug:
+To reproduce the bug
+=============
 
-= in binary_requiring_gem folder
+In binary_requiring_gem folder
+-------------
 
 <pre>
 $ cd binary_requiring_gem
@@ -11,7 +13,8 @@ $ rake install
 * this installs the binary_requiring_gem 
 * all this gem does is require the 'json' gem
 
-= in the bundler_project
+In the bundler_project
+-------------
 
 <pre>
 $ cd bundler_project
@@ -20,7 +23,8 @@ $ ruby demo_problem_exec.rb
 $ ruby demo_problem_system.rb
 </pre>
 
-This error comes up:
+This error comes up
+-------------
 
 <pre>
 $ ruby demo_problem_backticks.rb 
